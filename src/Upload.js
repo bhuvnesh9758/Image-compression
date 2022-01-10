@@ -128,10 +128,10 @@ const Upload = () => {
   }
 
   //   const jsonBlob = new Blob(['{"name": "test"}']);
-  const getSize = (id) => {
-    const image = document.getElementById(id);
-    return { width: image.clientWidth, height: image.clientHeight };
-  };
+  // const getSize = (id) => {
+  //   const image = document.getElementById(id);
+  //   return { width: image.clientWidth, height: image.clientHeight };
+  // };
 
   const compressedFileName =
     sourceFile &&
